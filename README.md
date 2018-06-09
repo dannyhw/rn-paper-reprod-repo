@@ -1,3 +1,97 @@
+Error below
+
+Invariant Violation: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Home`.
+
+This error is located at:
+    in RCTView (at View.js:60)
+    in View (at Card.js:132)
+    in TouchableWithoutFeedback (at Card.js:125)
+    in RCTView (at View.js:60)
+    in View (at Surface.js:62)
+    in Surface (at withTheme.js:75)
+    in ThemeProvider (at withTheme.js:89)
+    in withTheme(Surface) (at createAnimatedComponent.js:154)
+    in AnimatedComponent (at Card.js:124)
+    in Card (at withTheme.js:75)
+    in ThemeProvider (at withTheme.js:89)
+    in withTheme(Card) (at App.js:7)
+    in RCTView (at View.js:60)
+    in View (at App.js:6)
+    in Home (at App.js:18)
+    in ThemeProvider (at Provider.js:17)
+    in PortalHost (at Provider.js:16)
+    in Provider (at App.js:17)
+    in App (at registerRootComponent.js:35)
+    in RootErrorBoundary (at registerRootComponent.js:34)
+    in ExpoRootComponent (at renderApplication.js:33)
+    in RCTView (at View.js:60)
+    in View (at AppContainer.js:102)
+    in RCTView (at View.js:60)
+    in View (at AppContainer.js:122)
+    in AppContainer (at renderApplication.js:32)
+throwOnInvalidElementType
+    ReactNativeRenderer-dev.js:4706:4
+createFiberFromElement
+    ReactNativeRenderer-dev.js:4668:36
+createChild
+    ReactNativeRenderer-dev.js:7670:12
+reconcileChildrenArray
+    ReactNativeRenderer-dev.js:8014:10
+reconcileChildFibers
+    ReactNativeRenderer-dev.js:8453:8
+reconcileChildrenAtExpirationTime
+    ReactNativeRenderer-dev.js:8622:8
+reconcileChildren
+    ReactNativeRenderer-dev.js:8603:6
+updateHostComponent
+    ReactNativeRenderer-dev.js:9001:22
+beginWork
+    ReactNativeRenderer-dev.js:9589:10
+performUnitOfWork
+    ReactNativeRenderer-dev.js:12924:25
+workLoop
+    ReactNativeRenderer-dev.js:12953:43
+renderRoot
+    ReactNativeRenderer-dev.js:12996:17
+performWorkOnRoot
+    ReactNativeRenderer-dev.js:13632:34
+performWork
+    ReactNativeRenderer-dev.js:13545:26
+performSyncWork
+    ReactNativeRenderer-dev.js:13506:16
+requestWork
+    ReactNativeRenderer-dev.js:13392:6
+scheduleWorkImpl
+    ReactNativeRenderer-dev.js:13259:24
+scheduleWork
+    ReactNativeRenderer-dev.js:13207:28
+scheduleRootUpdate
+    ReactNativeRenderer-dev.js:13930:17
+_updateContainerAtExpirationTime
+    ReactNativeRenderer-dev.js:13966:6
+updateContainer
+    ReactNativeRenderer-dev.js:13991:8
+render
+    ReactNativeRenderer-dev.js:14726:35
+renderApplication
+    renderApplication.js:49:21
+run
+    AppRegistry.js:102:10
+runApplication
+    AppRegistry.js:194:26
+__callFunction
+    MessageQueue.js:351:47
+<unknown>
+    MessageQueue.js:116:26
+__guardSafe
+    MessageQueue.js:314:6
+callFunctionReturnFlushedQueue
+    MessageQueue.js:115:17
+
+___
+
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
 Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
